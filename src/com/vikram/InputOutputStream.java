@@ -43,6 +43,7 @@ public class InputOutputStream {
           */
 
         // deleting a file
+
         File dFile = new File("vikram.txt");
         if(dFile.delete()){
             System.out.println("I have deleted: "+dFile.getName());
